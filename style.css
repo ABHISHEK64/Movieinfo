@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.logo-img{
+    width:80px ;
+}
+.fa-bars{
+     color: #61d2adeb;
+}
+.navbar-nav .nav-Item .nav-Link {
+
+    color: #61d2adeb;
+    font-size: 1.5rem;
+    font-weight: bold
+}
+
+input{
+    background-color: transparent ! important;
+    border: 2px solid #22254b;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+ margin-left: 100%;
+}
+input:hover{
+    border:none !important;
+}
+input:focus{
+    outline: none !important;
+}
+header{
+    align-items: center;
+    justify-content: center;
+}
+.fav-container{
+    width: 100%;
+    overflow: hidden;
+
+    text-align: center;
+
+}
+.fav-container ul{
+    display: flex;
+    list-style: none;
+
+}
+.fav-container li{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.fav-container li a{
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    
+
+}
+.fav-container li a:hover{
+    color: aqua;
+    text-decoration-style: none;
+
+}
+.fav-container li a:focus{
+    outline: none !important;
+}
+.fav-container li a .active{
+    color: aqua;
+    text-decoration-style: none;
+}
+.random-movies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    border-radius:3px;
+    box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 1.5rem;
+       overflow: hidden;
+       cursor: pointer;    
+    width: fit-content;
+    max-width: 500px;
+}
+.fav-container span{
+    
+    width: 75px;
+    margin-left: 5%;
+    text-align: center;
+}
+card-text{
+    position: relative;
+}
+h3{
+position: relative;
+
+background-color: #ffffff;
+padding: 0.25rem 1rem;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+
+
+}
+.card-img-top{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
+.card-img-top:hover{
+   background-color: black;
+   opacity: 0.3;
+   
+}
+.card-body.card-text:hover{
+    color: aqua;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem ;
+}
+.card-body .card-text {
+   
+    margin-top: 21px;
+    font-weight: bold;
+}
+popup-container{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.card-body span {
+    background-color: #22254b;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+.card-body span.green {
+    color: rgb(128, 248, 128);
+}
+
+.card-body span.orange {
+    color: rgb(248, 207, 131);
+}
+
+.card-body span.red {
+    color: rgb(240, 142, 142);
+}
+.hidden{
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
+}
+.popup{
+    text-align: center;
+    max-width: auto;
+    width: 100%;
+    max-height: 100vh;
+    border-radius:5px;
+    padding:0 2px;
+    overflow:auto;
+    background-color: #ffffff;
+}
+.popup .close-pop-up{
+    position: relative;
+    top:1.5rem;
+    right: 1rem;
+    margin-left: 100%;
+    border:none !important;
+    background-color: transparent !important;
+    color:aqua;
+}
+.movie-img{
+    max-width:800px;
+    width: 400px;
+    object-fit: contain;
+}
+
+meal-info h1{
+    text-align: center;
+}
